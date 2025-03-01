@@ -1,5 +1,5 @@
 # Welcome to the SuperDataScience Community Project!
-Welcome to Polyglot: AI Language Companion repository! 🎉
+Welcome to Polyglot: The AI Language Companion repository! 🎉
 
 This project is a collaborative initiative brought to you by SuperDataScience, a thriving community dedicated to advancing the fields of data science, machine learning, and AI. We are excited to have you join us in this journey of learning, experimentation, and growth.
 
@@ -52,15 +52,6 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
   - Deploy the application on Hugging Face Spaces.
   - Ensure smooth integration with the deployment environment and document usage instructions.
 
-### Timeline
-
-| Phase             | Task                                       | Duration  |
-|-------------------|--------------------------------------------|-----------|
-| **Phase 1: Setup**        | GitHub Repo & Environment Setup                | Week 1    |
-| **Phase 2: Logic**        | API Integration & Basic Content Generation       | Weeks 2-3 |
-| **Phase 3: UI**           | Build Chat-Based Interface                      | Week 4    |
-| **Phase 4: Deployment**   | Deploy on Hugging Face Spaces                    | Week 5    |
-
 ---
 
 ## Scope 2: Advanced
@@ -95,7 +86,7 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 | Phase             | Task                                               | Duration  |
 |-------------------|----------------------------------------------------|-----------|
 | **Phase 1: Setup**        | Project Setup         | Week 1    |
-| **Phase 2: Logic**        | Agent-Based Architecture   | Weeks 2-3 |
-| **Phase 3: UI**           | User Interface | Week 4    |
-| **Phase 4: Deployment**   | Deployment                      | Week 5    |
+| **Phase 2: Logic**        | Application Logic     | Weeks 2-3 |
+| **Phase 3: UI**           | User Interface        | Week 4    |
+| **Phase 4: Deployment**   | Deployment            | Week 5    |
 

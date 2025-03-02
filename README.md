@@ -28,6 +28,13 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 
 ---
 
+## Tools & Technologies
+- **Gen AI Models:** OpenAI, Anthropic, Google Gemini, Huggingface
+- **UI:** Streamlit, Gradio
+- **Deployment:** Streamlit, Huggingface spaces
+
+---
+
 ## Scope 1: Beginner Friendly
 
 ### Phase 1: Setup (1 Week)
@@ -37,8 +44,9 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 
 ### Phase 2: Application Logic Development (2 Weeks)
 - **LLM Integration:**  
-  - Choose a suitable language model (e.g., from OpenAI or Hugging Face) to power the tutor.
+  - Choose a suitable language model to power the tutor.
   - Integrate the model via API calls to handle user input and generate responses.
+  - Introduce multi-modal capabilities by having the model speak to the user and help with pronounciation of words.
 - **Content Generation:**  
   - Develop basic routines to generate conversational responses.
 
@@ -49,8 +57,7 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 
 ### Phase 4: Deployment (1 Week)
 - **Cloud Deployment:**  
-  - Deploy the application on Hugging Face Spaces.
-  - Ensure smooth integration with the deployment environment and document usage instructions.
+  - Deploy the application on streamlit or Hugging Face Spaces.
 
 ---
 
@@ -59,7 +66,7 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 ### Phase 1: Setup (1 Week)
 - **Repository & Environment:**  
   - Setup GitHub repository and project folders.
-  - Configure virtual environments and install advanced libraries (e.g., for concurrency, memory handling).
+  - Configure virtual environments and install advanced libraries.
 
 ### Phase 2: Application Logic Development (2 Weeks)
 - **Agent-Based Architecture:**  
@@ -74,12 +81,10 @@ Polyglot is an AI-powered personal language tutor designed to help users learn a
 ### Phase 3: Application UI Development (1 Week)
 - **Enhanced User Interface:**  
   - Develop an enriched chat-based UI that supports interactive learning and visualizes the underlying agent workflow.
-  - Provide controls for users to track progress and adjust learning parameters.
 
 ### Phase 4: Deployment (1 Week)
 - **Cloud Deployment:**  
-  - Deploy the advanced version on Hugging Face Spaces.
-  - Ensure smooth integration, scalability, and comprehensive documentation of the deployment process.
+  - Deploy the advanced version on streamlit or Hugging Face Spaces.
 
 ### Timeline
 

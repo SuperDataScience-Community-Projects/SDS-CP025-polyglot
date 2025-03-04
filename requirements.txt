@@ -1,1 +1,2 @@
-# Contains all libraries that are needed for this project
+gradio
+transformers

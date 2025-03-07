@@ -58,5 +58,4 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
     }
   }
 
-  protected readonly HTMLTextAreaElement = HTMLTextAreaElement;
 }

@@ -17,6 +17,13 @@
         <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">{{historyMessage.message}}</p>
       </div>
     }
+    @if( awaitingResponse() ){
+    <div class="spinner" >
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    }
     <div #messagesEnd></div>
   </div>
   <div class="mx-5">

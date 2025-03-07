@@ -14,8 +14,16 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
   history = signal<any[]>([])
   userMessage = signal<string>('');
 
-  @ViewChild('messagesEnd') private messagesEnd!: ElementRef;
+  audioContext: AudioContext | null = null;
+
+  @ViewChild('messagesEnd') private readonly messagesEnd!: ElementRef;
   private readonly http: HttpClient =  inject(HttpClient);
+  awaitingResponse = signal<boolean>(false);
+
+  constructor() {
+    this.audioContext = new (window.AudioContext)();
+  }
+
 
   ngAfterViewInit(): void {
     initFlowbite();
@@ -31,9 +39,16 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
   }
 
   chat(input: string){
-    this.http.post(`${this.baseUrl}/chat`, {input }, {withCredentials: true}).subscribe((response) => {
-      this.history().push( response);
-      setTimeout(() => this.scrollToBottom(), 100);
+    this.awaitingResponse.set(true);
+    this.http.post<{role: string, message: string, voice?: any}>(`${this.baseUrl}/chat`, {input }, {withCredentials: true}).subscribe({
+      next: (response) => {
+        this.history().push(response);
+        if (response.voice) {
+          this.decodeAndPlayAudio(this.base64ToArrayBuffer(response.voice))
+        }
+        setTimeout(() => this.scrollToBottom(), 100);
+      },
+      complete: () => this.awaitingResponse.set(false)
     })
 
   }
@@ -58,4 +73,38 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
     }
   }
 
+  decodeAndPlayAudio(data: ArrayBuffer) {
+    if (this.audioContext) {
+      this.audioContext.decodeAudioData(data, (buffer) => {
+        // Create a buffer source node
+        const source = this.audioContext!.createBufferSource();
+        source.buffer = buffer;
+
+        // Connect the source node to the audio context's destination (the speakers)
+        source.connect(this.audioContext!.destination);
+
+        // Start the audio
+        source.start();
+
+        // Optional: Handle the end of the audio
+        source.onended = () => {
+          console.log('Audio playback finished');
+        };
+      }, (error) => {
+        console.error('Error decoding audio data', error);
+      });
+    }
+  }
+
+  base64ToArrayBuffer(base64: string): ArrayBuffer {
+    const binaryString = window.atob(base64);  // Decode base64 string to binary string
+    const len = binaryString.length;
+    const buffer = new ArrayBuffer(len);
+    const view = new Uint8Array(buffer);
+
+    for (let i = 0; i < len; i++) {
+      view[i] = binaryString.charCodeAt(i);
+    }
+    return buffer;
+  }
 }

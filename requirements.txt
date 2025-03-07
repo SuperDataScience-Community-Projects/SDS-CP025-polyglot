@@ -1,1 +1,10 @@
 # Contains all libraries that are needed for this project
+
+openai
+python-dotenv
+streamlit
+langchain 
+openai
+langchain-community
+langchain-openai
+pygame

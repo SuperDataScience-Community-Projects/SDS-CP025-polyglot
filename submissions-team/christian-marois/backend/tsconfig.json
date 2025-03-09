@@ -1,13 +1,6 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@models/*": ["src/models/*"],
-      "@utils/*": ["src/utils/*"],
-      "@db/*": ["src/db/*"],
-      "@entities/*": ["src/db/entities/*"]
-    },
     "module": "commonjs",
-    "resolveJsonModule": true,
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,

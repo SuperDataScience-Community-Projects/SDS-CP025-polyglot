@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px; /* Spacing between dots */
+  background: lightgray;
+  width: 50px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border-radius: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #606060; /* You can change the color here */
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+/* Add delay to each dot */
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the bounce height here */
+  }
+}

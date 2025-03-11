@@ -40,7 +40,7 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
 
   chat(input: string){
     this.awaitingResponse.set(true);
-    this.http.post<{role: string, message: string, voice?: any}>(`${this.baseUrl}/chat`, {input }, {withCredentials: true}).subscribe({
+    this.http.post<{role: string, message: string, voice?: any}>(`${this.baseUrl}/tutoring`, {input }, {withCredentials: true}).subscribe({
       next: (response) => {
         this.history().push(response);
         if (response.voice) {
@@ -61,12 +61,12 @@ export class AppComponent implements AfterViewInit, AfterViewChecked {
   }
 
   startTutoring() {
-    this.chat('init')
+    this.chat('')
   }
 
   sendMessage($event?: KeyboardEvent) {
     if( this.userMessage() && (!$event || $event.code === 'Enter') ) {
-      this.history().push( {role: 'Human', message: this.userMessage()})
+      this.history().push( {role: 'User', content: this.userMessage()})
       this.chat(this.userMessage());
       this.userMessage.set('')
       setTimeout(() => this.scrollToBottom(), 100);

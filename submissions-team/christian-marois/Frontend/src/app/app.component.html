@@ -1,0 +1,37 @@
+<div class="max-w-[800px]">
+<button (click)="startTutoring()" [disabled]="history().length > 0"
+  type="button" class="disabled:cursor-not-allowed disabled:bg-gray-300 m-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Start</button>
+
+
+  <div class="flex flex-col items-start gap-2.5 p-4 mx-5 border border-gray-300 h-150 overflow-y-auto">
+    @for (historyMessage of history(); track historyMessage){
+      <div class="flex flex-col w-full max-w-[600px] leading-1.5 p-4 border-gray-200 bg-gray-100  dark:bg-gray-700 mb-4"
+           [ngClass]="{
+                        'self-start bg-gray-100 rounded-e-xl rounded-es-xl': historyMessage.role === 'assistant',
+                        'self-end bg-blue-200 rounded-l-xl rounded-br-xl': historyMessage.role !== 'assistant'
+                      }"
+      >
+        <div class="flex items-center space-x-2 rtl:space-x-reverse">
+          <span class="text-sm font-semibold text-gray-900 dark:text-white">{{ historyMessage.role==='assistant'?'Tutor':'Me' }}</span>
+        </div>
+        <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">{{historyMessage.content}}</p>
+      </div>
+    }
+    @if( awaitingResponse() ){
+    <div class="spinner" >
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    }
+    <div #messagesEnd></div>
+  </div>
+  <div class="mx-5">
+  <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+  <textarea #message (keyup)="sendMessage($event)" [value]="userMessage()" (input)="userMessage.set(message.value)"
+            id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your answers here..."></textarea>
+
+    <button (click)="sendMessage()" [disabled]="message.value === ''"
+      type="button" class="disabled:cursor-not-allowed disabled:bg-gray-300 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Send</button>
+  </div>
+</div>

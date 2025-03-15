@@ -1,0 +1,62 @@
+flowchart TD
+    U[User] <--> UI[Streamlit UI]
+    UI <--> O[Orchestrator]
+    
+    subgraph Agents
+        CA[Conversation Agent]
+        EA[Exercise Generator Agent]
+        FA[Feedback & Context Agent]
+        IA[Idioms Agent]
+    end
+    
+    O <--> CA
+    O <--> EA
+    O <--> FA
+    O <--> IA
+    
+    subgraph Tools
+        CAT1[Translation]
+        CAT2[Language Detection]
+        CAT3[Pronunciation Check]
+        CAT4[Exercise Request]
+        
+        EAT1[Vocabulary Exercises]
+        EAT2[Grammar Exercises]
+        EAT3[Conversation Exercises]
+        EAT4[Comprehension Exercises]
+        
+        FAT1[Progress Analysis]
+        FAT2[Feedback Generation]
+        FAT3[Profile Updates]
+        FAT4[Recommendations]
+        
+        IAT1[Explain Idioms]
+        IAT2[Detect Idioms]
+        IAT3[Suggest Idioms]
+        IAT4[Explain Sarcasm]
+    end
+    
+    CA --- CAT1
+    CA --- CAT2
+    CA --- CAT3
+    CA --- CAT4
+    
+    EA --- EAT1
+    EA --- EAT2
+    EA --- EAT3
+    EA --- EAT4
+    
+    FA --- FAT1
+    FA --- FAT2
+    FA --- FAT3
+    FA --- FAT4
+    
+    IA --- IAT1
+    IA --- IAT2
+    IA --- IAT3
+    IA --- IAT4
+    
+    DB[(User Profile)]
+    
+    O <--> DB
+    FA <--> DB

@@ -3661,3 +3661,900 @@ Traceback (most recent call last):
   File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
     raise StreamlitDuplicateElementKey(user_key)
 streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:23:36,849 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc.4543433840", inode=5873613, flags=19900, id=108474874): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+2025-03-16 23:23:36,853 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc", inode=5873613, flags=10800, id=108474875): is_file, is_renamed
+2025-03-16 23:23:36,853 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc", inode=5737357, flags=10800, id=108474876): is_file, is_renamed
+2025-03-16 23:23:36,853 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc.4543435856", inode=5873614, flags=19900, id=108474888): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+2025-03-16 23:23:36,853 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc", inode=5873614, flags=10800, id=108474889): is_file, is_renamed
+2025-03-16 23:23:36,853 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc", inode=5737355, flags=10800, id=108474890): is_file, is_renamed
+2025-03-16 23:23:36,854 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc.4543146816", inode=5873615, flags=19900, id=108474902): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+2025-03-16 23:23:36,854 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc", inode=5873615, flags=10800, id=108474903): is_file, is_renamed
+2025-03-16 23:23:36,854 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc", inode=5737354, flags=10800, id=108474904): is_file, is_renamed
+2025-03-16 23:23:36,854 - DEBUG - queue_event FileCreatedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc.4543433840', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event FileModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc.4543433840', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - Destination event for rename is NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc", inode=5873613, flags=10800, id=108474875)
+2025-03-16 23:23:36,854 - DEBUG - queue_event FileMovedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc.4543433840', dest_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event FileDeletedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/feedback_agent.cpython-313.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,854 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,859 - DEBUG - queue_event FileCreatedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc.4543435856', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,859 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,859 - DEBUG - queue_event FileModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc.4543435856', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - Destination event for rename is NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc", inode=5873614, flags=10800, id=108474889)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileMovedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc.4543435856', dest_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileDeletedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/conversational_agent.cpython-313.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileCreatedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc.4543146816', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc.4543146816', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - Destination event for rename is NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc", inode=5873615, flags=10800, id=108474903)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileMovedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc.4543146816', dest_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event FileDeletedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/config.cpython-313.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:36,860 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc.4831619488", inode=5873616, flags=19900, id=108474916): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+2025-03-16 23:23:37,096 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc", inode=5873616, flags=10800, id=108474917): is_file, is_renamed
+2025-03-16 23:23:37,096 - DEBUG - NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc", inode=5737353, flags=10800, id=108474918): is_file, is_renamed
+2025-03-16 23:23:37,096 - DEBUG - queue_event FileCreatedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc.4831619488', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event FileModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc.4831619488', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - Destination event for rename is NativeEvent(path="/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc", inode=5873616, flags=10800, id=108474917)
+2025-03-16 23:23:37,096 - DEBUG - queue_event FileMovedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc.4831619488', dest_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event FileDeletedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__/app3.cpython-313.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-16 23:23:37,096 - DEBUG - queue_event DirModifiedEvent(src_path='/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-16 23:23:37,126 - DEBUG - Starting app.py execution
+2025-03-16 23:23:37,152 - DEBUG - Entering main()
+2025-03-16 23:23:37,152 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:23:40,552 - DEBUG - Starting app.py execution
+2025-03-16 23:23:40,608 - INFO - 🔄 Attempt 1 for generate_vocabulary_exercise...
+2025-03-16 23:23:40,616 - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 23:23:40,656 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:40,656 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:40,656 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-16 23:23:40,826 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158c0ba10>
+2025-03-16 23:23:40,826 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x15898d490> server_hostname='api.openai.com' timeout=None
+2025-03-16 23:23:40,927 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158cfb890>
+2025-03-16 23:23:40,927 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:40,927 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:40,928 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:40,928 - DEBUG - send_request_body.complete
+2025-03-16 23:23:40,928 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:41,343 - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 23:23:41,756 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:42,423 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:42 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'245'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_4d812517eb0c0581a7560e0566895e1a'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=tfmK6IidLtbYqAeJpk7a1yXrTr9EQXj_YuGSa4DQ2VE-1742147622-1.0.1.1-5_hG2eouearD7DSj0xo6PWzUrvYgFkxujMWXC9TWi2MGNrIQHXMIlTlUWYMo1qEcZvQ2Y626GCXfxSBOFPgm1Np6Nien3b112GhL3n7R5ww; path=/; expires=Sun, 16-Mar-25 18:23:42 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=bRLWCbgzBsQrrNCSVYgGYtiBVjMEHWMIxRNiENFYTKg-1742147622403-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161c873876f573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:42,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:42,425 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 16 Mar 2025 17:53:42 GMT'), ('content-type', 'text/event-stream; charset=utf-8'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-v10fwmbayrx3k8r5mjdwundk'), ('openai-processing-ms', '245'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-limit-tokens', '30000'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-remaining-tokens', '29862'), ('x-ratelimit-reset-requests', '120ms'), ('x-ratelimit-reset-tokens', '276ms'), ('x-request-id', 'req_4d812517eb0c0581a7560e0566895e1a'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=tfmK6IidLtbYqAeJpk7a1yXrTr9EQXj_YuGSa4DQ2VE-1742147622-1.0.1.1-5_hG2eouearD7DSj0xo6PWzUrvYgFkxujMWXC9TWi2MGNrIQHXMIlTlUWYMo1qEcZvQ2Y626GCXfxSBOFPgm1Np6Nien3b112GhL3n7R5ww; path=/; expires=Sun, 16-Mar-25 18:23:42 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=bRLWCbgzBsQrrNCSVYgGYtiBVjMEHWMIxRNiENFYTKg-1742147622403-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '92161c873876f573-BOM'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-16 23:23:42,425 - DEBUG - request_id: req_4d812517eb0c0581a7560e0566895e1a
+2025-03-16 23:23:42,426 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:44,186 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:44,186 - DEBUG - response_closed.started
+2025-03-16 23:23:44,186 - DEBUG - response_closed.complete
+2025-03-16 23:23:44,189 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}
+2025-03-16 23:23:44,189 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:23:44,194 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:44,195 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:44,196 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:44,196 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:44,196 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:44,196 - DEBUG - send_request_body.complete
+2025-03-16 23:23:44,197 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:44,869 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:44 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'382'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_7f4a489be532b7f4687b2b1b62e36676'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161c9b9f5ef573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:44,870 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:44,870 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:44 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '382', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_7f4a489be532b7f4687b2b1b62e36676', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161c9b9f5ef573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:44,870 - DEBUG - request_id: req_7f4a489be532b7f4687b2b1b62e36676
+2025-03-16 23:23:44,870 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:45,081 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:46,852 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:46,853 - DEBUG - response_closed.started
+2025-03-16 23:23:46,853 - DEBUG - response_closed.complete
+2025-03-16 23:23:46,856 - WARNING - None
+2025-03-16 23:23:46,856 - INFO - 🔄 Attempt 2 for generate_vocabulary_exercise...
+2025-03-16 23:23:46,861 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:46,861 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:46,862 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:46,862 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:46,862 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:46,862 - DEBUG - send_request_body.complete
+2025-03-16 23:23:46,862 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:47,547 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:47 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'379'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_471ebc171e24e70622e5602695ecd383'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161cac5a85f573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:47,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:47,549 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:47 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '379', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_471ebc171e24e70622e5602695ecd383', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161cac5a85f573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:47,549 - DEBUG - request_id: req_471ebc171e24e70622e5602695ecd383
+2025-03-16 23:23:47,549 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:47,747 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:48,912 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:48,912 - DEBUG - response_closed.started
+2025-03-16 23:23:48,912 - DEBUG - response_closed.complete
+2025-03-16 23:23:48,915 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'English': 'one', 'French': 'un'}, {'English': 'two', 'French': 'deux'}]}
+2025-03-16 23:23:48,915 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:23:48,920 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'English': 'one', 'French': 'un'}, {'English': 'two', 'French': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:48,921 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:48,921 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:48,922 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:48,922 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:48,922 - DEBUG - send_request_body.complete
+2025-03-16 23:23:48,922 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:49,475 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:49 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'245'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_3d501aa9784fc3cd4b68e5ae29ad826b'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161cb92a41f573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:49,476 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:49,476 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:49 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '245', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_3d501aa9784fc3cd4b68e5ae29ad826b', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161cb92a41f573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:49,476 - DEBUG - request_id: req_3d501aa9784fc3cd4b68e5ae29ad826b
+2025-03-16 23:23:49,477 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:49,828 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:52,494 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:52,495 - DEBUG - response_closed.started
+2025-03-16 23:23:52,495 - DEBUG - response_closed.complete
+2025-03-16 23:23:52,499 - WARNING - None
+2025-03-16 23:23:52,499 - INFO - 🔄 Attempt 3 for generate_vocabulary_exercise...
+2025-03-16 23:23:52,503 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:52,504 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:52,504 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:52,504 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:52,504 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:52,504 - DEBUG - send_request_body.complete
+2025-03-16 23:23:52,504 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:53,062 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:53 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'268'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_ad3ed68d4941a960155af81f4f0ac9df'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161ccf9ad0f573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:53,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:53,062 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:53 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '268', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_ad3ed68d4941a960155af81f4f0ac9df', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161ccf9ad0f573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:53,062 - DEBUG - request_id: req_ad3ed68d4941a960155af81f4f0ac9df
+2025-03-16 23:23:53,063 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:53,388 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:55,161 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:55,161 - DEBUG - response_closed.started
+2025-03-16 23:23:55,161 - DEBUG - response_closed.complete
+2025-03-16 23:23:55,165 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}
+2025-03-16 23:23:55,165 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:23:55,169 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:55,169 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:55,170 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:55,170 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:55,170 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:55,170 - DEBUG - send_request_body.complete
+2025-03-16 23:23:55,170 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:55,723 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:55 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'276'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_396cc6721bbf20197567e597def52715'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161ce03f7bf573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:55,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:55,724 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:55 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '276', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_396cc6721bbf20197567e597def52715', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161ce03f7bf573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:55,724 - DEBUG - request_id: req_396cc6721bbf20197567e597def52715
+2025-03-16 23:23:55,725 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:56,050 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:23:57,928 - DEBUG - receive_response_body.complete
+2025-03-16 23:23:57,928 - DEBUG - response_closed.started
+2025-03-16 23:23:57,929 - DEBUG - response_closed.complete
+2025-03-16 23:23:57,933 - WARNING - None
+2025-03-16 23:23:57,933 - WARNING - ⚠️ Maximum attempts reached. Skipping generate_vocabulary_exercise.
+2025-03-16 23:23:57,933 - INFO - 🔄 Attempt 1 for generate_grammar_exercise...
+2025-03-16 23:23:57,937 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate a grammar exercise for Beginner level learners in French \n        on the topic \'Basic Verb Conjugation\'. Provide the response as **valid JSON** in the following format:\n\n        {\n            "type": "single_choice",\n            "question": "Choose the correct conjugation of the verb \'ser\' (to be) for \'yo\' (I):",\n            "options": ["soy", "eres", "es", "somos"],\n            "correctAnswer": "soy",\n            "explanation": "\'Soy\' is the correct conjugation of \'ser\' for the first-person singular pronoun \'yo\'."\n        }\n\n        Ensure the JSON response is valid and does not contain extra text.\n        Always ensure to provide an English explanation in the Json. \n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:23:57,938 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:23:57,938 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:57,938 - DEBUG - send_request_headers.complete
+2025-03-16 23:23:57,938 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:23:57,939 - DEBUG - send_request_body.complete
+2025-03-16 23:23:57,939 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:23:58,512 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:53:58 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'280'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29809'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'382ms'), (b'x-request-id', b'req_f8149bf5b6f2b1f70965c66a2fc6d447'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161cf18cd6f573-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:23:58,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:23:58,513 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:53:58 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '280', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29809', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '382ms', 'x-request-id': 'req_f8149bf5b6f2b1f70965c66a2fc6d447', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161cf18cd6f573-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:23:58,514 - DEBUG - request_id: req_f8149bf5b6f2b1f70965c66a2fc6d447
+2025-03-16 23:23:58,514 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:23:58,849 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:24:00,825 - DEBUG - receive_response_body.complete
+2025-03-16 23:24:00,826 - DEBUG - response_closed.started
+2025-03-16 23:24:00,826 - DEBUG - response_closed.complete
+2025-03-16 23:24:00,829 - DEBUG - Raw response from generate_grammar_exercise: {'type': 'single_choice', 'question': "Choose the correct conjugation of the verb 'être' (to be) for 'je' (I):", 'options': ['suis', 'es', 'est', 'sommes'], 'correctAnswer': 'suis', 'explanation': "'Suis' is the correct conjugation of 'être' for the first-person singular pronoun 'je'."}
+2025-03-16 23:24:00,829 - INFO - ✅ Valid JSON generated for generate_grammar_exercise.
+2025-03-16 23:24:00,832 - DEBUG - Entering main()
+2025-03-16 23:24:00,832 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:24:01,757 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:24:34,268 - DEBUG - Starting app.py execution
+2025-03-16 23:24:34,316 - DEBUG - Entering main()
+2025-03-16 23:24:34,316 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:24:51,102 - DEBUG - Starting app.py execution
+2025-03-16 23:24:51,155 - INFO - 🔄 Attempt 1 for generate_vocabulary_exercise...
+2025-03-16 23:24:51,157 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:24:51,157 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:24:51,157 - DEBUG - close.started
+2025-03-16 23:24:51,157 - DEBUG - close.complete
+2025-03-16 23:24:51,157 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-16 23:24:51,241 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15895a5d0>
+2025-03-16 23:24:51,242 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x15898d490> server_hostname='api.openai.com' timeout=None
+2025-03-16 23:24:51,299 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15898b5c0>
+2025-03-16 23:24:51,300 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:51,300 - DEBUG - send_request_headers.complete
+2025-03-16 23:24:51,300 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:24:51,301 - DEBUG - send_request_body.complete
+2025-03-16 23:24:51,301 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:52,021 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:54:52 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'385'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_dda24ce1f63c83fe1e23325194d93c76'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e3f0b9a8595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:24:52,022 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:24:52,022 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:54:52 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '385', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_dda24ce1f63c83fe1e23325194d93c76', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e3f0b9a8595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:24:52,022 - DEBUG - request_id: req_dda24ce1f63c83fe1e23325194d93c76
+2025-03-16 23:24:52,023 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:24:52,090 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:24:53,541 - DEBUG - receive_response_body.complete
+2025-03-16 23:24:53,541 - DEBUG - response_closed.started
+2025-03-16 23:24:53,542 - DEBUG - response_closed.complete
+2025-03-16 23:24:53,544 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}
+2025-03-16 23:24:53,544 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:24:53,548 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:24:53,549 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:24:53,549 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:53,549 - DEBUG - send_request_headers.complete
+2025-03-16 23:24:53,549 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:24:53,549 - DEBUG - send_request_body.complete
+2025-03-16 23:24:53,549 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:54,153 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:54:54 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'281'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_d0d9463d91492046200cf44bbe2cac08'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e4d0c568595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:24:54,154 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:24:54,154 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:54:54 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '281', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_d0d9463d91492046200cf44bbe2cac08', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e4d0c568595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:24:54,154 - DEBUG - request_id: req_d0d9463d91492046200cf44bbe2cac08
+2025-03-16 23:24:54,154 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:24:54,421 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:24:57,331 - DEBUG - receive_response_body.complete
+2025-03-16 23:24:57,331 - DEBUG - response_closed.started
+2025-03-16 23:24:57,331 - DEBUG - response_closed.complete
+2025-03-16 23:24:57,333 - WARNING - None
+2025-03-16 23:24:57,333 - INFO - 🔄 Attempt 2 for generate_vocabulary_exercise...
+2025-03-16 23:24:57,336 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:24:57,337 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:24:57,337 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:57,337 - DEBUG - send_request_headers.complete
+2025-03-16 23:24:57,337 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:24:57,337 - DEBUG - send_request_body.complete
+2025-03-16 23:24:57,337 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:57,920 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:54:57 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'249'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_8dbe9214e5f9a57978cda837439b3719'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e64cad58595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:24:57,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:24:57,921 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:54:57 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '249', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_8dbe9214e5f9a57978cda837439b3719', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e64cad58595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:24:57,921 - DEBUG - request_id: req_8dbe9214e5f9a57978cda837439b3719
+2025-03-16 23:24:57,921 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:24:58,237 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:24:59,478 - DEBUG - receive_response_body.complete
+2025-03-16 23:24:59,479 - DEBUG - response_closed.started
+2025-03-16 23:24:59,479 - DEBUG - response_closed.complete
+2025-03-16 23:24:59,481 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}
+2025-03-16 23:24:59,481 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:24:59,486 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:24:59,487 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:24:59,487 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:24:59,488 - DEBUG - send_request_headers.complete
+2025-03-16 23:24:59,488 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:24:59,488 - DEBUG - send_request_body.complete
+2025-03-16 23:24:59,488 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:00,373 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:00,498 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:00 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'325'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_6785632d383b77f5e1194247dd78ad0f'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e723ac88595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:00,499 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:00,499 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:00 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '325', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_6785632d383b77f5e1194247dd78ad0f', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e723ac88595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:00,499 - DEBUG - request_id: req_6785632d383b77f5e1194247dd78ad0f
+2025-03-16 23:25:00,500 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:02,884 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:02,884 - DEBUG - response_closed.started
+2025-03-16 23:25:02,884 - DEBUG - response_closed.complete
+2025-03-16 23:25:02,886 - WARNING - None
+2025-03-16 23:25:02,886 - INFO - 🔄 Attempt 3 for generate_vocabulary_exercise...
+2025-03-16 23:25:02,887 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Numbers\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:02,888 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:02,888 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:02,888 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:02,888 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:02,888 - DEBUG - send_request_body.complete
+2025-03-16 23:25:02,888 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:03,519 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:03 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'300'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_58e4c56eb9b08dc498a77b92f6fd6d35'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e877ea78595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:03,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:03,520 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:03 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '300', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_58e4c56eb9b08dc498a77b92f6fd6d35', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e877ea78595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:03,520 - DEBUG - request_id: req_58e4c56eb9b08dc498a77b92f6fd6d35
+2025-03-16 23:25:03,521 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:03,770 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:04,596 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:04,596 - DEBUG - response_closed.started
+2025-03-16 23:25:04,596 - DEBUG - response_closed.complete
+2025-03-16 23:25:04,598 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}
+2025-03-16 23:25:04,599 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:25:04,602 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Numbers', 'words': [{'english': 'one', 'french': 'un'}, {'english': 'two', 'french': 'deux'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:04,603 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:04,603 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:04,603 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:04,603 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:04,603 - DEBUG - send_request_body.complete
+2025-03-16 23:25:04,603 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:05,301 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:05 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'327'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_5b2f71aa918de8f8af329f793b5b7f5b'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161e922ce88595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:05,301 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:05,301 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:05 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '327', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_5b2f71aa918de8f8af329f793b5b7f5b', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161e922ce88595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:05,301 - DEBUG - request_id: req_5b2f71aa918de8f8af329f793b5b7f5b
+2025-03-16 23:25:05,302 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:05,468 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:07,387 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:07,387 - DEBUG - response_closed.started
+2025-03-16 23:25:07,387 - DEBUG - response_closed.complete
+2025-03-16 23:25:07,392 - WARNING - None
+2025-03-16 23:25:07,392 - WARNING - ⚠️ Maximum attempts reached. Skipping generate_vocabulary_exercise.
+2025-03-16 23:25:07,392 - INFO - 🔄 Attempt 1 for generate_grammar_exercise...
+2025-03-16 23:25:07,397 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate a grammar exercise for Beginner level learners in French \n        on the topic \'Present Tense\'. Provide the response as **valid JSON** in the following format:\n\n        {\n            "type": "single_choice",\n            "question": "Choose the correct conjugation of the verb \'ser\' (to be) for \'yo\' (I):",\n            "options": ["soy", "eres", "es", "somos"],\n            "correctAnswer": "soy",\n            "explanation": "\'Soy\' is the correct conjugation of \'ser\' for the first-person singular pronoun \'yo\'."\n        }\n\n        Ensure the JSON response is valid and does not contain extra text.\n        Always ensure to provide an English explanation in the Json. \n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:07,398 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:07,398 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:07,399 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:07,399 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:07,399 - DEBUG - send_request_body.complete
+2025-03-16 23:25:07,399 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:08,147 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:08 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'427'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29811'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'378ms'), (b'x-request-id', b'req_5a4c0725b5f153387099984af77b95bd'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161ea39fd78595-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:08,148 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:08,148 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:08 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '427', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29811', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '378ms', 'x-request-id': 'req_5a4c0725b5f153387099984af77b95bd', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161ea39fd78595-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:08,148 - DEBUG - request_id: req_5a4c0725b5f153387099984af77b95bd
+2025-03-16 23:25:08,149 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:08,275 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:09,926 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:09,927 - DEBUG - response_closed.started
+2025-03-16 23:25:09,927 - DEBUG - response_closed.complete
+2025-03-16 23:25:09,930 - DEBUG - Raw response from generate_grammar_exercise: {'type': 'single_choice', 'question': "Choose the correct conjugation of the verb 'être' (to be) for 'je' (I):", 'options': ['suis', 'es', 'est', 'sommes'], 'correctAnswer': 'suis', 'explanation': "'Suis' is the correct conjugation of 'être' for the first-person singular pronoun 'je'."}
+2025-03-16 23:25:09,930 - INFO - ✅ Valid JSON generated for generate_grammar_exercise.
+2025-03-16 23:25:09,932 - DEBUG - Entering main()
+2025-03-16 23:25:09,933 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:25:10,819 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:25,702 - DEBUG - Starting app.py execution
+2025-03-16 23:25:25,751 - DEBUG - Entering main()
+2025-03-16 23:25:25,751 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:25:54,752 - DEBUG - Starting app.py execution
+2025-03-16 23:25:54,801 - INFO - 🔄 Attempt 1 for generate_vocabulary_exercise...
+2025-03-16 23:25:54,803 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Colors\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:54,803 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:54,803 - DEBUG - close.started
+2025-03-16 23:25:54,803 - DEBUG - close.complete
+2025-03-16 23:25:54,803 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-16 23:25:55,049 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158e5a190>
+2025-03-16 23:25:55,050 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x15898d490> server_hostname='api.openai.com' timeout=None
+2025-03-16 23:25:55,112 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158eeaf90>
+2025-03-16 23:25:55,112 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:55,113 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:55,113 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:55,113 - DEBUG - send_request_body.complete
+2025-03-16 23:25:55,113 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:55,682 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:55,786 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:55 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'312'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_7733e4aed8600ec42e545598882d0f6c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161fcddd444443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:55,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:55,787 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:55 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '312', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_7733e4aed8600ec42e545598882d0f6c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161fcddd444443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:55,787 - DEBUG - request_id: req_7733e4aed8600ec42e545598882d0f6c
+2025-03-16 23:25:55,787 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:56,886 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:56,887 - DEBUG - response_closed.started
+2025-03-16 23:25:56,887 - DEBUG - response_closed.complete
+2025-03-16 23:25:56,890 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}
+2025-03-16 23:25:56,890 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:25:56,895 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:56,896 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:56,896 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:56,896 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:56,897 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:56,897 - DEBUG - send_request_body.complete
+2025-03-16 23:25:56,897 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:57,559 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:55:57 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'324'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_91bd0cb2398e213cda51007ff93925d9'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161fd90e494443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:25:57,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:25:57,560 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:55:57 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '324', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_91bd0cb2398e213cda51007ff93925d9', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161fd90e494443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:25:57,560 - DEBUG - request_id: req_91bd0cb2398e213cda51007ff93925d9
+2025-03-16 23:25:57,561 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:25:57,760 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:25:59,740 - DEBUG - receive_response_body.complete
+2025-03-16 23:25:59,740 - DEBUG - response_closed.started
+2025-03-16 23:25:59,740 - DEBUG - response_closed.complete
+2025-03-16 23:25:59,743 - WARNING - None
+2025-03-16 23:25:59,743 - INFO - 🔄 Attempt 2 for generate_vocabulary_exercise...
+2025-03-16 23:25:59,747 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Colors\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:25:59,748 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:25:59,748 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:25:59,748 - DEBUG - send_request_headers.complete
+2025-03-16 23:25:59,748 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:25:59,748 - DEBUG - send_request_body.complete
+2025-03-16 23:25:59,748 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:00,639 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:00,659 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:00 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'299'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_b067551c5cf539225f46add2f4fc7429'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161feadcba4443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:00,659 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:00,659 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:00 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '299', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_b067551c5cf539225f46add2f4fc7429', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161feadcba4443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:00,659 - DEBUG - request_id: req_b067551c5cf539225f46add2f4fc7429
+2025-03-16 23:26:00,659 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:02,837 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:02,837 - DEBUG - response_closed.started
+2025-03-16 23:26:02,838 - DEBUG - response_closed.complete
+2025-03-16 23:26:02,840 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}
+2025-03-16 23:26:02,840 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:26:02,845 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:02,846 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:02,846 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:02,846 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:02,846 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:02,847 - DEBUG - send_request_body.complete
+2025-03-16 23:26:02,847 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:03,532 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:03 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'313'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_f6e1d644b3d12e86e295b8004e697ed2'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92161ffe2c784443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:03,533 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:03,534 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:03 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '313', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_f6e1d644b3d12e86e295b8004e697ed2', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92161ffe2c784443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:03,534 - DEBUG - request_id: req_f6e1d644b3d12e86e295b8004e697ed2
+2025-03-16 23:26:03,534 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:03,778 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:06,261 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:06,262 - DEBUG - response_closed.started
+2025-03-16 23:26:06,262 - DEBUG - response_closed.complete
+2025-03-16 23:26:06,265 - WARNING - None
+2025-03-16 23:26:06,265 - INFO - 🔄 Attempt 3 for generate_vocabulary_exercise...
+2025-03-16 23:26:06,270 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Colors\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:06,271 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:06,271 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:06,271 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:06,271 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:06,272 - DEBUG - send_request_body.complete
+2025-03-16 23:26:06,272 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:07,067 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:07 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'462'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29862'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'276ms'), (b'x-request-id', b'req_100f519f863488fba3862838d5b4fe19'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921620138d774443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:07,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:07,068 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:07 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '462', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29862', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '276ms', 'x-request-id': 'req_100f519f863488fba3862838d5b4fe19', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '921620138d774443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:07,068 - DEBUG - request_id: req_100f519f863488fba3862838d5b4fe19
+2025-03-16 23:26:07,068 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:07,138 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:08,227 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:08,227 - DEBUG - response_closed.started
+2025-03-16 23:26:08,228 - DEBUG - response_closed.complete
+2025-03-16 23:26:08,231 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}
+2025-03-16 23:26:08,231 - WARNING - ❌ Invalid response from generate_vocabulary_exercise, reasoning through the issue...
+2025-03-16 23:26:08,236 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': "\n            You generated an invalid JSON response. Here is the response:\n            \n            ```\n            {'type': 'vocabulary', 'theme': 'Colors', 'words': [{'english': 'red', 'french': 'rouge'}, {'english': 'blue', 'french': 'bleu'}]}\n            ```\n            \n            **Identify the issue** and regenerate a corrected JSON.\n            ", 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:08,237 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:08,237 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:08,237 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:08,238 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:08,238 - DEBUG - send_request_body.complete
+2025-03-16 23:26:08,238 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:08,809 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:08 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'238'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29894'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'212ms'), (b'x-request-id', b'req_4f2c86aa0431c4cb477970e7d5d79981'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9216201fdf7c4443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:08,809 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:08,809 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:08 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '238', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29894', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '212ms', 'x-request-id': 'req_4f2c86aa0431c4cb477970e7d5d79981', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9216201fdf7c4443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:08,809 - DEBUG - request_id: req_4f2c86aa0431c4cb477970e7d5d79981
+2025-03-16 23:26:08,809 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:09,125 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:10,333 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:10,333 - DEBUG - response_closed.started
+2025-03-16 23:26:10,333 - DEBUG - response_closed.complete
+2025-03-16 23:26:10,336 - WARNING - None
+2025-03-16 23:26:10,336 - WARNING - ⚠️ Maximum attempts reached. Skipping generate_vocabulary_exercise.
+2025-03-16 23:26:10,336 - INFO - 🔄 Attempt 1 for generate_grammar_exercise...
+2025-03-16 23:26:10,340 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate a grammar exercise for Beginner level learners in French \n        on the topic \'Adjectives and Opposites\'. Provide the response as **valid JSON** in the following format:\n\n        {\n            "type": "single_choice",\n            "question": "Choose the correct conjugation of the verb \'ser\' (to be) for \'yo\' (I):",\n            "options": ["soy", "eres", "es", "somos"],\n            "correctAnswer": "soy",\n            "explanation": "\'Soy\' is the correct conjugation of \'ser\' for the first-person singular pronoun \'yo\'."\n        }\n\n        Ensure the JSON response is valid and does not contain extra text.\n        Always ensure to provide an English explanation in the Json. \n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:10,341 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:10,341 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:10,342 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:10,342 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:10,342 - DEBUG - send_request_body.complete
+2025-03-16 23:26:10,342 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:11,201 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:11 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'531'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29809'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'382ms'), (b'x-request-id', b'req_ea9028692204414733fe24f68b4316c6'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9216202cfa904443-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:11,202 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:11,202 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:11 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '531', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29809', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '382ms', 'x-request-id': 'req_ea9028692204414733fe24f68b4316c6', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9216202cfa904443-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:11,203 - DEBUG - request_id: req_ea9028692204414733fe24f68b4316c6
+2025-03-16 23:26:11,203 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:11,234 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:15,817 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:15,818 - DEBUG - response_closed.started
+2025-03-16 23:26:15,818 - DEBUG - response_closed.complete
+2025-03-16 23:26:15,823 - DEBUG - Raw response from generate_grammar_exercise: {'type': 'matching', 'question': 'Match the French adjectives with their opposites.', 'options': {'grand': 'petit', 'chaud': 'froid', 'lourd': 'léger', 'rapide': 'lent', 'joyeux': 'triste'}, 'correctAnswer': {'grand': 'petit', 'chaud': 'froid', 'lourd': 'léger', 'rapide': 'lent', 'joyeux': 'triste'}, 'explanation': "In French, adjectives have opposites that often describe contrasting qualities. For example, 'grand' (big) is the opposite of 'petit' (small), and 'chaud' (hot) is the opposite of 'froid' (cold)."}
+2025-03-16 23:26:15,823 - INFO - ✅ Valid JSON generated for generate_grammar_exercise.
+2025-03-16 23:26:16,688 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:41,367 - DEBUG - Starting app.py execution
+2025-03-16 23:26:41,412 - DEBUG - Entering main()
+2025-03-16 23:26:41,412 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:26:43,502 - DEBUG - Starting app.py execution
+2025-03-16 23:26:43,558 - INFO - 🔄 Attempt 1 for generate_vocabulary_exercise...
+2025-03-16 23:26:43,560 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate 2 vocabulary words in French for \n        Beginner level learners based on the theme \'Greetings\'. \n        Format your responses as valid JSON:\n\n        {\n            "type": "single_choice",\n            "question": "Translate \'hello\' to French",\n            "options": ["Hola", "Bonjour", "Ciao", "Hallo"],\n            "correctAnswer": "Hola",\n            "explanation": "\'Hola\' means \'hello\' in Spanish."\n        }\n\n        Ensure the response is always valid JSON.\n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:43,561 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:43,561 - DEBUG - close.started
+2025-03-16 23:26:43,561 - DEBUG - close.complete
+2025-03-16 23:26:43,561 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-16 23:26:43,628 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158c44c00>
+2025-03-16 23:26:43,628 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x15898d490> server_hostname='api.openai.com' timeout=None
+2025-03-16 23:26:43,698 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158c44af0>
+2025-03-16 23:26:43,699 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:43,699 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:43,699 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:43,700 - DEBUG - send_request_body.complete
+2025-03-16 23:26:43,700 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:44,433 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:45,458 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:45 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'345'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29861'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'278ms'), (b'x-request-id', b'req_909fc5a26975b62c29129f543ab6f63f'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921620fd9b4c480b-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:45,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:45,459 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:45 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '345', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29861', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '278ms', 'x-request-id': 'req_909fc5a26975b62c29129f543ab6f63f', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '921620fd9b4c480b-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:45,459 - DEBUG - request_id: req_909fc5a26975b62c29129f543ab6f63f
+2025-03-16 23:26:45,459 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:46,650 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:46,650 - DEBUG - response_closed.started
+2025-03-16 23:26:46,651 - DEBUG - response_closed.complete
+2025-03-16 23:26:46,654 - DEBUG - Raw response from generate_vocabulary_exercise: {'type': 'single_choice', 'question': "Translate 'hello' to French", 'options': ['Hola', 'Bonjour', 'Ciao', 'Hallo'], 'correctAnswer': 'Bonjour', 'explanation': "'Bonjour' means 'hello' in French."}
+2025-03-16 23:26:46,654 - INFO - ✅ Valid JSON generated for generate_vocabulary_exercise.
+2025-03-16 23:26:46,654 - INFO - 🔄 Attempt 1 for generate_grammar_exercise...
+2025-03-16 23:26:46,658 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'Generate a grammar exercise for Beginner level learners in French \n        on the topic \'Present Tense\'. Provide the response as **valid JSON** in the following format:\n\n        {\n            "type": "single_choice",\n            "question": "Choose the correct conjugation of the verb \'ser\' (to be) for \'yo\' (I):",\n            "options": ["soy", "eres", "es", "somos"],\n            "correctAnswer": "soy",\n            "explanation": "\'Soy\' is the correct conjugation of \'ser\' for the first-person singular pronoun \'yo\'."\n        }\n\n        Ensure the JSON response is valid and does not contain extra text.\n        Always ensure to provide an English explanation in the Json. \n        ', 'role': 'user'}], 'model': 'gpt-4-turbo', 'stream': True, 'temperature': 0.2}}
+2025-03-16 23:26:46,659 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-16 23:26:46,659 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:46,660 - DEBUG - send_request_headers.complete
+2025-03-16 23:26:46,660 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-16 23:26:46,661 - DEBUG - send_request_body.complete
+2025-03-16 23:26:46,661 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-16 23:26:47,310 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 17:56:47 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'314'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29811'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'378ms'), (b'x-request-id', b'req_0d00b9a424ba9a8d6d595ea0fbd12761'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9216211009a2480b-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-16 23:26:47,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 23:26:47,311 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sun, 16 Mar 2025 17:56:47 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-v10fwmbayrx3k8r5mjdwundk', 'openai-processing-ms': '314', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '30000', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-remaining-tokens': '29811', 'x-ratelimit-reset-requests': '120ms', 'x-ratelimit-reset-tokens': '378ms', 'x-request-id': 'req_0d00b9a424ba9a8d6d595ea0fbd12761', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9216211009a2480b-BOM', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-16 23:26:47,311 - DEBUG - request_id: req_0d00b9a424ba9a8d6d595ea0fbd12761
+2025-03-16 23:26:47,312 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-16 23:26:47,546 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:26:49,420 - DEBUG - receive_response_body.complete
+2025-03-16 23:26:49,420 - DEBUG - response_closed.started
+2025-03-16 23:26:49,420 - DEBUG - response_closed.complete
+2025-03-16 23:26:49,422 - DEBUG - Raw response from generate_grammar_exercise: {'type': 'single_choice', 'question': "Choose the correct conjugation of the verb 'être' (to be) for 'je' (I):", 'options': ['suis', 'es', 'est', 'sommes'], 'correctAnswer': 'suis', 'explanation': "'Suis' is the correct conjugation of 'être' for the first-person singular pronoun 'je'."}
+2025-03-16 23:26:49,423 - INFO - ✅ Valid JSON generated for generate_grammar_exercise.
+2025-03-16 23:26:49,425 - DEBUG - Entering main()
+2025-03-16 23:26:49,425 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:26:50,312 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 23:41:59,997 - DEBUG - Starting app.py execution
+2025-03-16 23:42:00,049 - DEBUG - Entering main()
+2025-03-16 23:42:00,049 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:42:57,425 - DEBUG - Starting app.py execution
+2025-03-16 23:42:57,476 - DEBUG - Entering main()
+2025-03-16 23:42:57,476 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-16 23:42:58,540 - DEBUG - Starting app.py execution
+2025-03-16 23:42:58,580 - DEBUG - Entering main()
+2025-03-16 23:42:58,581 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-17 00:14:29,964 - DEBUG - Starting app.py execution
+2025-03-17 00:14:30,037 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'content': 'You are a multilingual AI language tutor.\n            When responding in French, always provide the English translation immediately after.\n            Your responses should follow this format and should be in Markdown Language:\n            \n\n             \n             French | English Translation\n            :------------------------------------------------------ | :------------------------| \n            [Response in French] | [Translation in English]\n\n            \n            Provide helpful, engaging, and educational responses for learners of all levels.', 'role': 'system'}, {'content': 'Hola tell me what is the meaning', 'role': 'user'}, {'content': '[]', 'role': 'assistant'}], 'model': 'gpt-4-turbo', 'functions': [{'name': 'Translation', 'description': 'Translates text between languages', 'parameters': {'properties': {'__arg1': {'title': '__arg1', 'type': 'string'}}, 'required': ['__arg1'], 'type': 'object'}}, {'name': 'LanguageDetection', 'description': 'Detects the language of the provided text', 'parameters': {'properties': {'__arg1': {'title': '__arg1', 'type': 'string'}}, 'required': ['__arg1'], 'type': 'object'}}, {'name': 'RequestExerciseGeneration', 'description': 'Requests an exercise based on context', 'parameters': {'properties': {'__arg1': {'title': '__arg1', 'type': 'string'}}, 'required': ['__arg1'], 'type': 'object'}}], 'stream': True, 'temperature': 0.2}}
+2025-03-17 00:14:30,037 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-03-17 00:14:30,037 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-17 00:14:30,203 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x158cd9f50>
+2025-03-17 00:14:30,203 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10696f9b0> server_hostname='api.openai.com' timeout=None
+2025-03-17 00:14:30,252 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106a2f350>
+2025-03-17 00:14:30,252 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 00:14:30,252 - DEBUG - send_request_headers.complete
+2025-03-17 00:14:30,252 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 00:14:30,253 - DEBUG - send_request_body.complete
+2025-03-17 00:14:30,253 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 00:14:30,599 - DEBUG - Incremented Retry for (url='/runs/multipart'): LangSmithRetry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-03-17 00:14:30,599 - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-03-17 00:14:31,316 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-17 00:14:31,415 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Mar 2025 18:44:31 GMT'), (b'Content-Type', b'text/event-stream; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-v10fwmbayrx3k8r5mjdwundk'), (b'openai-processing-ms', b'479'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-limit-tokens', b'30000'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-remaining-tokens', b'29832'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-ratelimit-reset-tokens', b'336ms'), (b'x-request-id', b'req_3fd951e3b3e6062791837c08979d4ea5'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=DgxtpV6VV9FWKNcMYxj5_Nl.L5p0pRaok8UfIs6vjr0-1742150671-1.0.1.1-lujV7giiH0WDUJCiXDzxsDwQoZ80Cg7NPlo9I8YnWVnF8J1ptdmJbyAy9aNqniUhALNFWjCiVV70SDBAv0TvlESJMB1ZLyIkzhEwAGaAqPA; path=/; expires=Sun, 16-Mar-25 19:14:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=tnprBllNnfSY_WW8Hi9Y.er3CG.m1NhRDa02WL1dW_8-1742150671394-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921666f94809443d-BOM'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 00:14:31,416 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 00:14:31,416 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sun, 16 Mar 2025 18:44:31 GMT'), ('content-type', 'text/event-stream; charset=utf-8'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-v10fwmbayrx3k8r5mjdwundk'), ('openai-processing-ms', '479'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-limit-tokens', '30000'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-remaining-tokens', '29832'), ('x-ratelimit-reset-requests', '120ms'), ('x-ratelimit-reset-tokens', '336ms'), ('x-request-id', 'req_3fd951e3b3e6062791837c08979d4ea5'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=DgxtpV6VV9FWKNcMYxj5_Nl.L5p0pRaok8UfIs6vjr0-1742150671-1.0.1.1-lujV7giiH0WDUJCiXDzxsDwQoZ80Cg7NPlo9I8YnWVnF8J1ptdmJbyAy9aNqniUhALNFWjCiVV70SDBAv0TvlESJMB1ZLyIkzhEwAGaAqPA; path=/; expires=Sun, 16-Mar-25 19:14:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=tnprBllNnfSY_WW8Hi9Y.er3CG.m1NhRDa02WL1dW_8-1742150671394-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '921666f94809443d-BOM'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-17 00:14:31,416 - DEBUG - request_id: req_3fd951e3b3e6062791837c08979d4ea5
+2025-03-17 00:14:31,416 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 00:14:32,548 - DEBUG - receive_response_body.complete
+2025-03-17 00:14:32,548 - DEBUG - response_closed.started
+2025-03-17 00:14:32,548 - DEBUG - response_closed.complete
+2025-03-17 00:14:32,637 - DEBUG - Starting app.py execution
+2025-03-17 00:14:32,670 - DEBUG - Entering main()
+2025-03-17 00:14:32,670 - ERROR - Error in main(): There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+Traceback (most recent call last):
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app.py", line 70, in main
+    generate_exercises_tab(user_profile)  # This might be causing the error
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/app3.py", line 36, in generate_exercises_tab
+    if st.button("Generate Exercises", key="generate_exercise_1"):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 243, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        ctx=ctx,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/widgets/button.py", line 925, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<8 lines>...
+        use_container_width=use_container_width,
+    )
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aditiphadnis/Documents/Github Tutorial/SDS-CP025-polyglot/.venv/lib/python3.13/site-packages/streamlit/elements/lib/utils.py", line 126, in _register_element_id
+    raise StreamlitDuplicateElementKey(user_key)
+streamlit.errors.StreamlitDuplicateElementKey: There are multiple elements with the same `key='generate_exercise_1'`. To fix this, please make sure that the `key` argument is unique for each element you create.
+2025-03-17 00:14:33,512 - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34

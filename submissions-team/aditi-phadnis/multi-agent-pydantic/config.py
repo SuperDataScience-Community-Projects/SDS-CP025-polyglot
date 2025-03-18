@@ -42,7 +42,7 @@ themes = {
 user_profile = UserProfile(
     target_language="French",
     difficulty_level="Beginner",
-    #learning_focus=["Vocabulary"]
+    learning_focus= "Vocabulary"
 )
 
 

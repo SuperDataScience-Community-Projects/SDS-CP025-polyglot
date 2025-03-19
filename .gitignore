@@ -8,3 +8,6 @@ venv/
 .venv/
 env/
 ENV/
+exercise_generator.log
+submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/pycache
+submissions-team/aditi-phadnis/multi-agent-pydantic.py/__pycache__ 

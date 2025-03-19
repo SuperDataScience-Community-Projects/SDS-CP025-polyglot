@@ -1,5 +1,3 @@
-# Contains all libraries that are needed for this project
-
 openai
 python-dotenv
 streamlit

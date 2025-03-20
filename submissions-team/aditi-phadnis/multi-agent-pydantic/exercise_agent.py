@@ -3,6 +3,11 @@ from openai import OpenAI
 from pydantic import BaseModel
 from config import client, UserProfile, model, temperature, theme, user_profile
 import time, random, json, logging
+from pydantic_ai import Agent, RunContext
+from dataclasses import dataclass
+
+
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -25,7 +30,6 @@ class ExerciseFormat(BaseModel):
 #------------------------------------------------
 # Step 2: Set up your Tools 
 #------------------------------------------------     
-
 
 class ExerciseGeneratorAgent:
     def __init__(self, target_language: str, difficulty_level: str, learning_focus: str):
@@ -133,7 +137,11 @@ if __name__ == "__main__":
         print("Unexpected response format:", exercise_data)
 
 
-        
+#------------------------------------------------
+# Step 3: Set up agent 
+#------------------------------------------------     
+
+ 
 
 
         

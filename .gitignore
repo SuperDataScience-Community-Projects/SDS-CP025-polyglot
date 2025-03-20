@@ -11,3 +11,8 @@ ENV/
 exercise_generator.log
 submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/pycache
 submissions-team/aditi-phadnis/multi-agent-pydantic.py/__pycache__ 
+submissions-team/aditi-phadnis/multi-agent-pydantic/exercise_agent.py
+submissions-team/aditi-phadnis/multi-agent-pydantic/__pycache__
+submissions-team/aditi-phadnis/multi-agent-pydantic/conversational_agent.py
+submissions-team/aditi-phadnis/Frameworks/multi-agent-framework/__pycache__
+exercise_generation.log

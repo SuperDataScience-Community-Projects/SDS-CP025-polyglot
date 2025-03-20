@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import uuid
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List, Tuple, Literal
+
 from pydantic import BaseModel, Field
 import random
 
@@ -23,12 +24,13 @@ class UserProfile(BaseModel):
     user_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     target_language: str = "Spanish"
     difficulty_level: str = "Beginner"
-    learning_focus: str = "Vocabulary"
-    strengths: List[str] = []
-    weaknesses: List[str] = []
-    conversation_history: List[Dict] = []
-    exercise_history: List[Dict] = []
-    feedback_history: List[Dict] = []
+    #learning_focus: str = "Vocabulary"
+    learning_focus: str= Literal['Vocabulary', 'Grammar', 'Conversation']
+    # strengths: List[str] = []
+    # weaknesses: List[str] = []
+    # conversation_history: List[Dict] = []
+    # exercise_history: List[Dict] = []
+    # feedback_history: List[Dict] = []
 
 
 # Define Themes for Different Difficulty Levels

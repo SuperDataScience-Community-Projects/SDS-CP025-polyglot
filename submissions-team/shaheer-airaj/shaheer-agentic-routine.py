@@ -16,7 +16,7 @@ if not OPENAI_API_KEY:
 client = OpenAI()
 
 
-################ Classes ################
+########################### Classes ##########################
 
 class Agent(BaseModel):
     name: str = "Agent"
@@ -26,38 +26,16 @@ class Agent(BaseModel):
     response_format: Optional[Type[BaseModel]] = None
 
 class User(BaseModel):
-    language: str = "English"
-    experience_level: str = "beginner"
-    learning_goal: str = "learn the basics"
+    language: str
+    experience_level: str
+    learning_goal: str
 
 
 
-############ Tools ################
+############################ Tools ###########################
+
 def call_information_extraction_agent():
     return information_extraction_agent
-
-def phrase_generator(language: str = "french"):
-    phrases = {
-        "french": [
-            "Bonjour, comment allez-vous?",
-            "Je m'appelle...",
-            "S'il vous plaît",
-            "Merci beaucoup",
-            "Au revoir"
-        ],
-        "spanish": [
-            "¡Hola! ¿Cómo estás?", 
-            "Me llamo...",
-            "Por favor",
-            "Muchas gracias",
-            "Adiós"
-        ]
-    }
-    
-    if language.lower() not in phrases:
-        raise ValueError("Language must be 'french' or 'spanish'")
-        
-    return random.choice(phrases[language.lower()])
 
 
 def execute_tool_call(tool_call, tools, agent_name):
@@ -93,7 +71,10 @@ def chat_parse(agent, messages):
     )
 
     return response.choices[0].message
-################ Agents ################
+
+
+
+########################## Agents #########################
 
 conversation_agent = Agent(
     name = "Conversation Agent",
@@ -107,7 +88,8 @@ conversation_agent = Agent(
 
         The point is to gain a deep understanding of the user's language learning goals.
 
-        Once you have a deep understanding of the user's language learning goals, you are to
+        Once you have a deep understanding of the user's language learning goals, summarize the users goals
+        and if the user says that you have captured their intent for learning the language, 
         pass the user's information to the Information Extraction Agent.
     """,
     tools = [call_information_extraction_agent]
@@ -145,9 +127,7 @@ exercise_agent = Agent(
 )
 
 
-#########################################
-
-
+########################## Main Logic ############################
 
 def run_turn(agent, messages):
     current_agent = agent

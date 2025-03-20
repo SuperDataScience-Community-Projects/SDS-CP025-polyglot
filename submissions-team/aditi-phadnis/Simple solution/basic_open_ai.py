@@ -1,15 +1,19 @@
-from huggingface_hub import InferenceClient
+from openai import OpenAI
+
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
-if not HUGGINGFACE_API_KEY:
-    raise ValueError("HUGGINGFACE_API_KEY not found in environment variables")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-client = InferenceClient(api_key=HUGGINGFACE_API_KEY)
-model = 'mistralai/Mistral-7B-Instruct-v0.3'
+if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY not found in environment variables")
+
+client = OpenAI()
+
+# model = 'mistralai/Mistral-7B-Instruct-v0.3'
+model = 'gpt-4o-mini'
 
 system_message = """" You are a helpful AI assisstant whose job is to help the user to learn a new 
 language. 
@@ -60,10 +64,9 @@ def chat(user_input):
         model=model,
         messages=messages,
         temperature=0.2,
-        max_tokens=500,
     )
 
-    response =completion.choices[0].message['content']
+    response =completion.choices[0].message.content
 
     #Add AI response to the conversation history
     messages.append({"role": "assistant", "content": response})
